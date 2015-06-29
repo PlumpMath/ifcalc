@@ -1,0 +1,238 @@
+Figwheel: focusing on build-ids (dev)
+[0mCompiling "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[32mSuccessfully compiled "resources/public/js/compiled/app.js" in 0.171 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/goog/deps.js
+notifying browser that file changed:  resources/public/js/compiled/out/cljs_deps.js
+notifying browser that file changed:  /ifcalc/db.js
+notifying browser that file changed:  /ifcalc/views.js
+notifying browser that file changed:  /ifcalc/subs.js
+notifying browser that file changed:  /ifcalc/routes.js
+notifying browser that file changed:  /ifcalc/core.js
+notifying browser that file changed:  /ifcalc/handlers.js
+[0mCompiling "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[32mSuccessfully compiled "resources/public/js/compiled/app.js" in 0.124 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/cljs_deps.js
+notifying browser that file changed:  /ifcalc/db.js
+[0mCompiling "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[32mSuccessfully compiled "resources/public/js/compiled/app.js" in 0.263 seconds.[0m
+notifying browser that file changed:  /ifcalc/subs.js
+[0mCompiling "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[32mSuccessfully compiled "resources/public/js/compiled/app.js" in 0.189 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/cljs_deps.js
+notifying browser that file changed:  /ifcalc/views.js
+[0mCompiling "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[32mSuccessfully compiled "resources/public/js/compiled/app.js" in 0.207 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/cljs_deps.js
+notifying browser that file changed:  /ifcalc/views.js
+[0mCompiling "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[32mSuccessfully compiled "resources/public/js/compiled/app.js" in 0.175 seconds.[0m
+notifying browser that file changed:  /ifcalc/subs.js
+[0mCompiling "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[32mSuccessfully compiled "resources/public/js/compiled/app.js" in 0.114 seconds.[0m
+notifying browser that file changed:  /ifcalc/subs.js
+[0mCompiling "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[32mSuccessfully compiled "resources/public/js/compiled/app.js" in 0.171 seconds.[0m
+notifying browser that file changed:  /ifcalc/views.js
+[0mCompiling "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[32mSuccessfully compiled "resources/public/js/compiled/app.js" in 0.15 seconds.[0m
+notifying browser that file changed:  /ifcalc/subs.js
+[0mCompiling "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[32mSuccessfully compiled "resources/public/js/compiled/app.js" in 0.102 seconds.[0m
+notifying browser that file changed:  /ifcalc/subs.js
+[0mCompiling "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[32mSuccessfully compiled "resources/public/js/compiled/app.js" in 0.158 seconds.[0m
+notifying browser that file changed:  /ifcalc/subs.js
+[0mCompiling "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[32mSuccessfully compiled "resources/public/js/compiled/app.js" in 0.103 seconds.[0m
+notifying browser that file changed:  /ifcalc/db.js
+[0mCompiling "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[32mSuccessfully compiled "resources/public/js/compiled/app.js" in 0.166 seconds.[0m
+notifying browser that file changed:  /ifcalc/subs.js
+Figwheel: focusing on build-ids (dev)
+[0mCompiling "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[32mSuccessfully compiled "resources/public/js/compiled/app.js" in 0.194 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/goog/deps.js
+notifying browser that file changed:  resources/public/js/compiled/out/cljs_deps.js
+notifying browser that file changed:  /ifcalc/db.js
+notifying browser that file changed:  /ifcalc/views.js
+notifying browser that file changed:  /ifcalc/subs.js
+notifying browser that file changed:  /ifcalc/routes.js
+notifying browser that file changed:  /ifcalc/core.js
+notifying browser that file changed:  /ifcalc/handlers.js
+[0mCompiling "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[32mSuccessfully compiled "resources/public/js/compiled/app.js" in 0.309 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/cljs_deps.js
+notifying browser that file changed:  /ifcalc/views.js
+[0mCompiling "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[32mSuccessfully compiled "resources/public/js/compiled/app.js" in 0.198 seconds.[0m
+notifying browser that file changed:  /ifcalc/views.js
+[0mCompiling "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[32mSuccessfully compiled "resources/public/js/compiled/app.js" in 0.148 seconds.[0m
+notifying browser that file changed:  /ifcalc/views.js
+[0mCompiling "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[32mSuccessfully compiled "resources/public/js/compiled/app.js" in 0.196 seconds.[0m
+notifying browser that file changed:  /ifcalc/views.js
+[0mCompiling "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[32mSuccessfully compiled "resources/public/js/compiled/app.js" in 0.163 seconds.[0m
+notifying browser that file changed:  /ifcalc/db.js
+[0mCompiling "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[32mSuccessfully compiled "resources/public/js/compiled/app.js" in 0.115 seconds.[0m
+notifying browser that file changed:  /ifcalc/subs.js
+[0mCompiling "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[32mSuccessfully compiled "resources/public/js/compiled/app.js" in 0.148 seconds.[0m
+notifying browser that file changed:  /ifcalc/db.js
+[0mCompiling "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[32mSuccessfully compiled "resources/public/js/compiled/app.js" in 0.162 seconds.[0m
+notifying browser that file changed:  /ifcalc/subs.js
+[0mCompiling "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[32mSuccessfully compiled "resources/public/js/compiled/app.js" in 0.134 seconds.[0m
+notifying browser that file changed:  /ifcalc/db.js
+[0mCompiling "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[32mSuccessfully compiled "resources/public/js/compiled/app.js" in 0.102 seconds.[0m
+notifying browser that file changed:  /ifcalc/db.js
+[0mCompiling "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[32mSuccessfully compiled "resources/public/js/compiled/app.js" in 0.107 seconds.[0m
+notifying browser that file changed:  /ifcalc/db.js
+[0mCompiling "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[32mSuccessfully compiled "resources/public/js/compiled/app.js" in 0.153 seconds.[0m
+notifying browser that file changed:  /ifcalc/db.js
+[0mCompiling "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[32mSuccessfully compiled "resources/public/js/compiled/app.js" in 0.198 seconds.[0m
+notifying browser that file changed:  /ifcalc/views.js
+[0mCompiling "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[32mSuccessfully compiled "resources/public/js/compiled/app.js" in 0.178 seconds.[0m
+notifying browser that file changed:  /ifcalc/views.js
+[0mCompiling "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[32mSuccessfully compiled "resources/public/js/compiled/app.js" in 0.131 seconds.[0m
+notifying browser that file changed:  /ifcalc/views.js
+[0mCompiling "resources/public/js/compiled/app.js" from ["src/cljs"]...
+WARNING: Use of undeclared Var ifcalc.views/reaction at line 8 src/cljs/ifcalc/views.cljs
+WARNING: Use of undeclared Var ifcalc.views/reaction at line 9 src/cljs/ifcalc/views.cljs
+[32mSuccessfully compiled "resources/public/js/compiled/app.js" in 0.245 seconds.[0m
+notifying browser that file changed:  /ifcalc/views.js
+[0mCompiling "resources/public/js/compiled/app.js" from ["src/cljs"]...
+WARNING: Use of undeclared Var ifcalc.views/reaction at line 8 src/cljs/ifcalc/views.cljs
+WARNING: Use of undeclared Var ifcalc.views/reaction at line 9 src/cljs/ifcalc/views.cljs
+[32mSuccessfully compiled "resources/public/js/compiled/app.js" in 0.165 seconds.[0m
+notifying browser that file changed:  /ifcalc/views.js
+[0mCompiling "resources/public/js/compiled/app.js" from ["src/cljs"]...
+WARNING: Use of undeclared Var ifcalc.views/reaction at line 8 src/cljs/ifcalc/views.cljs
+WARNING: Use of undeclared Var ifcalc.views/reaction at line 9 src/cljs/ifcalc/views.cljs
+WARNING: Use of undeclared Var ifcalc.views/measurement-input at line 11 src/cljs/ifcalc/views.cljs
+[32mSuccessfully compiled "resources/public/js/compiled/app.js" in 0.207 seconds.[0m
+notifying browser that file changed:  /ifcalc/views.js
+[0mCompiling "resources/public/js/compiled/app.js" from ["src/cljs"]...
+WARNING: Use of undeclared Var ifcalc.views/reaction at line 8 src/cljs/ifcalc/views.cljs
+WARNING: Use of undeclared Var ifcalc.views/reaction at line 9 src/cljs/ifcalc/views.cljs
+WARNING: Use of undeclared Var ifcalc.views/measurement-input at line 11 src/cljs/ifcalc/views.cljs
+[32mSuccessfully compiled "resources/public/js/compiled/app.js" in 0.202 seconds.[0m
+notifying browser that file changed:  /ifcalc/views.js
+[0mCompiling "resources/public/js/compiled/app.js" from ["src/cljs"]...
+WARNING: Use of undeclared Var ifcalc.views/reaction at line 18 src/cljs/ifcalc/views.cljs
+WARNING: Use of undeclared Var ifcalc.views/reaction at line 19 src/cljs/ifcalc/views.cljs
+[32mSuccessfully compiled "resources/public/js/compiled/app.js" in 0.194 seconds.[0m
+notifying browser that file changed:  /ifcalc/views.js
+[0mCompiling "resources/public/js/compiled/app.js" from ["src/cljs"]...
+WARNING: Use of undeclared Var ifcalc.views/reaction at line 18 src/cljs/ifcalc/views.cljs
+WARNING: Use of undeclared Var ifcalc.views/reaction at line 19 src/cljs/ifcalc/views.cljs
+[32mSuccessfully compiled "resources/public/js/compiled/app.js" in 0.259 seconds.[0m
+notifying browser that file changed:  /ifcalc/views.js
+[0mCompiling "resources/public/js/compiled/app.js" from ["src/cljs"]...
+WARNING: Use of undeclared Var ifcalc.views/reaction at line 18 src/cljs/ifcalc/views.cljs
+WARNING: Use of undeclared Var ifcalc.views/reaction at line 19 src/cljs/ifcalc/views.cljs
+WARNING: Use of undeclared Var ifcalc.views/input at line 21 src/cljs/ifcalc/views.cljs
+[32mSuccessfully compiled "resources/public/js/compiled/app.js" in 0.276 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/cljs_deps.js
+notifying browser that file changed:  /ifcalc/views.js
+[0mCompiling "resources/public/js/compiled/app.js" from ["src/cljs"]...
+WARNING: Use of undeclared Var ifcalc.views/reaction at line 18 src/cljs/ifcalc/views.cljs
+WARNING: Use of undeclared Var ifcalc.views/input at line 20 src/cljs/ifcalc/views.cljs
+[32mSuccessfully compiled "resources/public/js/compiled/app.js" in 0.199 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/cljs_deps.js
+notifying browser that file changed:  /ifcalc/views.js
+[0mCompiling "resources/public/js/compiled/app.js" from ["src/cljs"]...
+WARNING: Use of undeclared Var ifcalc.views/input at line 20 src/cljs/ifcalc/views.cljs
+[32mSuccessfully compiled "resources/public/js/compiled/app.js" in 0.18 seconds.[0m
+notifying browser that file changed:  /ifcalc/views.js
+[0mCompiling "resources/public/js/compiled/app.js" from ["src/cljs"]...
+WARNING: Use of undeclared Var ifcalc.views/input at line 20 src/cljs/ifcalc/views.cljs
+[32mSuccessfully compiled "resources/public/js/compiled/app.js" in 0.209 seconds.[0m
+notifying browser that file changed:  /ifcalc/views.js
+[0mCompiling "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[32mSuccessfully compiled "resources/public/js/compiled/app.js" in 0.177 seconds.[0m
+notifying browser that file changed:  /ifcalc/views.js
+[0mCompiling "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[32mSuccessfully compiled "resources/public/js/compiled/app.js" in 0.146 seconds.[0m
+notifying browser that file changed:  /ifcalc/views.js
+[0mCompiling "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[32mSuccessfully compiled "resources/public/js/compiled/app.js" in 0.11 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/cljs_deps.js
+notifying browser that file changed:  /ifcalc/views.js
+[0mCompiling "resources/public/js/compiled/app.js" from ["src/cljs"]...
+WARNING: Use of undeclared Var ifcalc.views/reaction at line 18 src/cljs/ifcalc/views.cljs
+[32mSuccessfully compiled "resources/public/js/compiled/app.js" in 0.146 seconds.[0m
+notifying browser that file changed:  /ifcalc/views.js
+[0mCompiling "resources/public/js/compiled/app.js" from ["src/cljs"]...
+WARNING: Use of undeclared Var re-frame.core/reaction at line 18 src/cljs/ifcalc/views.cljs
+[32mSuccessfully compiled "resources/public/js/compiled/app.js" in 0.16 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/cljs_deps.js
+notifying browser that file changed:  /ifcalc/views.js
+[0mCompiling "resources/public/js/compiled/app.js" from ["src/cljs"]...
+WARNING: Use of undeclared Var re-frame.core/reaction at line 18 src/cljs/ifcalc/views.cljs
+[32mSuccessfully compiled "resources/public/js/compiled/app.js" in 0.141 seconds.[0m
+notifying browser that file changed:  /ifcalc/views.js
+[0mCompiling "resources/public/js/compiled/app.js" from ["src/cljs"]...
+WARNING: Use of undeclared Var ifcalc.views/reaction at line 18 src/cljs/ifcalc/views.cljs
+[32mSuccessfully compiled "resources/public/js/compiled/app.js" in 0.206 seconds.[0m
+notifying browser that file changed:  /ifcalc/views.js
+[0mCompiling "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[32mSuccessfully compiled "resources/public/js/compiled/app.js" in 0.125 seconds.[0m
+notifying browser that file changed:  /ifcalc/views.js
+[0mCompiling "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[32mSuccessfully compiled "resources/public/js/compiled/app.js" in 0.111 seconds.[0m
+notifying browser that file changed:  /ifcalc/views.js
+[0mCompiling "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[32mSuccessfully compiled "resources/public/js/compiled/app.js" in 0.141 seconds.[0m
+notifying browser that file changed:  /ifcalc/views.js
+[0mCompiling "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[32mSuccessfully compiled "resources/public/js/compiled/app.js" in 0.144 seconds.[0m
+notifying browser that file changed:  /ifcalc/views.js
+[0mCompiling "resources/public/js/compiled/app.js" from ["src/cljs"]...
+WARNING: Wrong number of args (2) passed to cljs.core/assoc-in at line 19 src/cljs/ifcalc/handlers.cljs
+[32mSuccessfully compiled "resources/public/js/compiled/app.js" in 0.174 seconds.[0m
+notifying browser that file changed:  /ifcalc/handlers.js
+[0mCompiling "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[32mSuccessfully compiled "resources/public/js/compiled/app.js" in 0.127 seconds.[0m
+notifying browser that file changed:  /ifcalc/handlers.js
+[0mCompiling "resources/public/js/compiled/app.js" from ["src/cljs"]...
+WARNING: Use of undeclared Var ifcalc.views/dispatch at line 13 src/cljs/ifcalc/views.cljs
+[32mSuccessfully compiled "resources/public/js/compiled/app.js" in 0.291 seconds.[0m
+notifying browser that file changed:  /ifcalc/views.js
+[0mCompiling "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[32mSuccessfully compiled "resources/public/js/compiled/app.js" in 0.116 seconds.[0m
+notifying browser that file changed:  /ifcalc/views.js
+[0mCompiling "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[32mSuccessfully compiled "resources/public/js/compiled/app.js" in 0.133 seconds.[0m
+notifying browser that file changed:  /ifcalc/views.js
+[0mCompiling "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[32mSuccessfully compiled "resources/public/js/compiled/app.js" in 0.175 seconds.[0m
+notifying browser that file changed:  /ifcalc/views.js
+[0mCompiling "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[32mSuccessfully compiled "resources/public/js/compiled/app.js" in 0.093 seconds.[0m
+notifying browser that file changed:  /ifcalc/handlers.js
+[0mCompiling "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[32mSuccessfully compiled "resources/public/js/compiled/app.js" in 0.096 seconds.[0m
+notifying browser that file changed:  /ifcalc/handlers.js
+[0mCompiling "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[32mSuccessfully compiled "resources/public/js/compiled/app.js" in 0.172 seconds.[0m
+notifying browser that file changed:  /ifcalc/handlers.js
+[0mCompiling "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[32mSuccessfully compiled "resources/public/js/compiled/app.js" in 0.132 seconds.[0m
+notifying browser that file changed:  /ifcalc/handlers.js
+[0mCompiling "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[32mSuccessfully compiled "resources/public/js/compiled/app.js" in 0.109 seconds.[0m
+notifying browser that file changed:  /ifcalc/handlers.js
+[0mCompiling "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[32mSuccessfully compiled "resources/public/js/compiled/app.js" in 0.376 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/cljs_deps.js
+notifying browser that file changed:  /ifcalc/views.js
