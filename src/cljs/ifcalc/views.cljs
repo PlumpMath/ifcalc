@@ -4,16 +4,16 @@
 
 ;; --------------------
 
-(defn measurement-input
-  [amount unit data-key]
-  (fn []
-    [:div
-     [:input {:type "text"
-              :value amount
-              :on-change #(re-frame/dispatch
-                           [:update-input-value amount [:measurements data-key :amount]])}]
-     [:input {:type "button"
-              :value unit}]]))
+(defn measurement-input [{:keys [amount unit path]}]
+  (let [amt (atom amount)]
+    (fn []
+      [:div
+       [:input {:type "text"
+                :value @amt
+                :on-change #(do (reset! amt (-> % .-target .-value))
+                                (re-frame/dispatch [:update-value @amt [:measurements path :amount]]))}]
+       [:input {:type "button"
+                :value unit}]])))
 
 (defn weight-input
   []
@@ -21,14 +21,26 @@
         amount (reaction (get @weight :amount))
         unit   (reaction (get @weight :unit))]
     (fn []
-      [measurement-input @amount @unit :weight])))
+      [measurement-input {:amount @amount
+                          :unit @unit
+                          :path :weight}])))
+
+(defn weight-output
+  []
+  (let [weight (re-frame/subscribe [:weight-change])
+        amount (reaction (get @weight :amount))
+        unit   (reaction (get @weight :unit))]
+    (fn []
+      [:h2 @amount])))
 
 
 (defn home-panel []
   (let [name (re-frame/subscribe [:name])]
     (fn []
-      [:div [weight-input]
-       [:div [:a {:href "#/about"} "go to About Page"]]])))
+      [:div
+       [weight-input]
+       [weight-output]
+       [:div [:a {:href "#/about"} "Go to About Page"]]])))
 
 (defn about-panel []
   (fn []
