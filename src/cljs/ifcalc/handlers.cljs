@@ -13,6 +13,6 @@
    (assoc db :active-panel active-panel)))
 
 (re-frame/register-handler
- :update-input-value
- (fn [db [_ input-value key-path]]
-   (.log js/console key-path)))
+ :update-value
+ (fn [db [_ value path]]
+   (assoc-in db path value)))
