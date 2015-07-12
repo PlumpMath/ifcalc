@@ -28,3 +28,8 @@
           updated-unit (if (= unit "kg") "lb" "kg")]
       (assoc-in db [:measurements :weight] {:amount updated-amount
                                             :unit updated-unit}))))
+
+(register-handler
+ :update-bodyfat-percentage
+ (fn [db [_ pct]]
+   (assoc-in db [:measurements :bodyfat :percentage] pct)))
