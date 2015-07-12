@@ -1,6 +1,6 @@
 (defproject ifcalc "0.1.0-SNAPSHOT"
-  :dependencies [[org.clojure/clojure "1.6.0"]
-                 [org.clojure/clojurescript "0.0-3211"]
+  :dependencies [[org.clojure/clojure "1.7.0"]
+                 [org.clojure/clojurescript "0.0-3308"]
                  [reagent "0.5.0"]
                  [re-frame "0.4.1"]
                  [secretary "1.2.3"]]
