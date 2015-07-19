@@ -13,14 +13,15 @@
         unit   (reaction (get @weight :unit))
         amt    (atom @amount)]
     (fn []
-      [:div
-       [:input {:type "number"
-                :value @amount
-                :on-change #(do (reset! amt (-> % .-target .-value))
-                                (dispatch [:update-value @amt [:measurements :weight :amount]]))}]
-       [:input {:type "button"
-                :value @unit
-                :on-click #(dispatch [:convert-weight @amount @unit])}]])))
+      [:div.input-group
+       [:input.form-control {:type "number"
+                             :value @amount
+                             :on-change #(do (reset! amt (-> % .-target .-value))
+                                             (dispatch [:update-value @amt [:measurements :weight :amount]]))}]
+       [:span.input-group-btn
+         [:input.btn.btn-default {:type "button"
+                                  :value @unit
+                                  :on-click #(dispatch [:convert-weight @amount @unit])}]]])))
 
 (defn bodyfat-input
   []
@@ -28,11 +29,12 @@
         percentage (reaction (get @bodyfat :percentage))
         pct        (atom @percentage)]
     (fn []
-      [:div
-       [:input {:type "number"
-                :value @pct
-                :on-change #(do (reset! pct (-> % .-target .-value))
-                                (dispatch [:update-bodyfat-percentage @pct]))}]])))
+      [:div.input-group
+       [:input.form-control {:type "number"
+                             :value @pct
+                             :on-change #(do (reset! pct (-> % .-target .-value))
+                                             (dispatch [:update-bodyfat-percentage @pct]))}]
+       [:span.input-group-addon "%"]])))
 
 (defn weight-output
   []
@@ -63,17 +65,27 @@
             [:h4 "BMR"]
             [:p (lib/bmr @lbm @weight-unit)]])))
 
+(defn form
+  []
+  (fn []
+    [:form.form-horizontal
+     [:div.row
+      [:div.form-group [:label.col-sm-2.control-label "Weight"]
+                       [:div.col-sm-2 [weight-input]]]]
+     [:div.row
+      [:div.form-group [:label.col-sm-2.control-label "Bodyfat %"]
+                       [:div.col-sm-2 [bodyfat-input]]]]]))
 
 (defn home-panel []
   (let [name (subscribe [:name])]
     (fn []
-      [:div
-       [weight-input]
-       [bodyfat-input]
-       [weight-output]
-       [bodyfat-pct-output]
-       [lbm-output]
-       [:div [:a {:href "#/about"} "Go to About Page"]]])))
+      [:div.container-fluid
+       [:div.row
+         [form]
+         [weight-output]
+         [bodyfat-pct-output]
+         [lbm-output]
+         [:div [:a {:href "#/about"} "Go to About Page"]]]])))
 
 (defn about-panel []
   (fn []
