@@ -14,7 +14,7 @@
         amt    (atom @amount)]
     (fn []
       [:div
-       [:input {:type "text"
+       [:input {:type "number"
                 :value @amount
                 :on-change #(do (reset! amt (-> % .-target .-value))
                                 (dispatch [:update-value @amt [:measurements :weight :amount]]))}]
@@ -29,7 +29,7 @@
         pct        (atom @percentage)]
     (fn []
       [:div
-       [:input {:type "text"
+       [:input {:type "number"
                 :value @pct
                 :on-change #(do (reset! pct (-> % .-target .-value))
                                 (dispatch [:update-bodyfat-percentage @pct]))}]])))
