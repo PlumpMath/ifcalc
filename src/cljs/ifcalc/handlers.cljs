@@ -33,3 +33,9 @@
  :update-bodyfat-percentage
  (fn [db [_ pct]]
    (assoc-in db [:measurements :bodyfat :percentage] pct)))
+
+
+(register-handler
+ :update-weight-amount
+ (fn [db [_ amount]]
+   (assoc-in db [:measurements :weight :amount] amount)))

@@ -17,7 +17,7 @@
        [:input.form-control {:type "number"
                              :value @amount
                              :on-change #(do (reset! amt (-> % .-target .-value))
-                                             (dispatch [:update-value @amt [:measurements :weight :amount]]))}]
+                                             (dispatch [:update-weight-amount @amt]))}]
        [:span.input-group-btn
          [:input.btn.btn-default {:type "button"
                                   :value @unit
@@ -49,7 +49,7 @@
   (let [bodyfat    (subscribe [:bodyfat-change])
         percentage (reaction (get @bodyfat :percentage))]
     (fn []
-      [:h2 @percentage])))
+      [:h1 @percentage])))
 
 (defn lbm-output
   []
@@ -70,22 +70,60 @@
   (fn []
     [:form.form-horizontal
      [:div.row
-      [:div.form-group [:label.col-sm-2.control-label "Weight"]
-                       [:div.col-sm-2 [weight-input]]]]
+      [:div.form-group [:label.col-sm-6.control-label "Weight"]
+                       [:div.col-sm-6 [weight-input]]]]
      [:div.row
-      [:div.form-group [:label.col-sm-2.control-label "Bodyfat %"]
-                       [:div.col-sm-2 [bodyfat-input]]]]]))
+      [:div.form-group [:label.col-sm-6.control-label "Bodyfat %"]
+                       [:div.col-sm-6 [bodyfat-input]]]]]))
+
+(defn draw-weight-graph
+  [d]
+  (let [[lbm fat-mass unit] (reagent/children d)]
+    (.addGraph js/nv (fn []
+                       (let [chart (.. js/nv -models pieChart
+                                     (x #(.-label %))
+                                     (y #(.-value %))
+                                     (showLabels true))]
+                       (let [weight-data [{:label "LBM" :value lbm} {:label "Fat Mass" :value fat-mass}]]
+                         (.. js/d3 (select "#weight-graph svg")
+                                   (datum (clj->js weight-data))
+                                   (call chart))))))))
+
+(defn weight-graph-placeholder []
+  [:section#weight-graph
+   [:svg]])
+
+(def weight-graph (reagent/create-class {:reagent-render weight-graph-placeholder
+                                         :component-did-mount draw-weight-graph
+                                         :component-did-update draw-weight-graph}))
+
+(defn weight-graph-container
+  []
+  (let [weight  (subscribe [:weight-change])
+        bodyfat (subscribe [:bodyfat-change])
+        weight-amount (reaction (get @weight :amount))
+        weight-unit   (reaction (get @weight :unit))
+        bf-percentage (reaction (get @bodyfat :percentage))
+        lbm           (reaction (lib/lbm @weight-amount @bf-percentage))
+        fat-mass      (reaction (- @weight-amount @lbm))]
+    (fn []
+      [weight-graph @lbm @fat-mass "lb"])))
 
 (defn home-panel []
   (let [name (subscribe [:name])]
     (fn []
       [:div.container-fluid
        [:div.row
-         [form]
-         [weight-output]
-         [bodyfat-pct-output]
-         [lbm-output]
-         [:div [:a {:href "#/about"} "Go to About Page"]]]])))
+         [:div.col-sm-4
+          [form]]
+         [:div.col-sm-8
+          [weight-graph-container]]]
+        [:div.row
+         [:div.col-sm-12
+          [weight-output]
+          [bodyfat-pct-output]
+          [lbm-output]
+          [:div [:a {:href "#/about"} "Go to About Page"]]]]])))
 
 (defn about-panel []
   (fn []
